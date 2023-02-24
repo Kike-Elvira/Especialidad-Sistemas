@@ -56,7 +56,7 @@
 
 
 	<div class="container-fluid">
-		<img src="Imagenes/baner-tec.jpg" class="img-fluid" alt="...">
+		<img src="baner-tec.jpg" class="img-fluid" alt="...">
 		<!---C.C.A INFORMACION--->
 		<div class="row">
 			<div class="row">
@@ -304,7 +304,7 @@
 			<h3 class="titulo-reticula">Reticula de la especialidad.</h3>
 			<div class="col">
 				<a href="#!" data-bs-toggle="modal" data-bs-target="#modalReticula">
-					<img src="Imagenes/reticula2023.jpg" alt="Reticula" style="width: 700px;" class="img-fluid">
+					<img src="reticula2023.jpg" alt="Reticula" style="width: 700px;" class="img-fluid">
 				</a>
 			</div>
 		</div>
@@ -312,7 +312,7 @@
 		<div tabindex="-1" aria-labelledby="modaReticula" aria-hidden="true" class="modal fade" id="modalReticula">
 			<div class="modal-dialog modal-lg modal-dialog-centered">
 				<div class="modal-content">
-					<img src="imagenes/reticula2023.jpg" alt="">
+					<img src="reticula2023.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -350,7 +350,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="imagenes/profes/balle.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="balle.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -363,7 +363,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/Foto_GueroSilvaColor.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="Foto_GueroSilvaColor.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -484,7 +484,7 @@
 									<div class="card mb-3 " style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/FOTOARLColor.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="FOTOARLColor.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -497,7 +497,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/FOTO_CJGT.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="FOTO_CJGT.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -511,7 +511,7 @@
 									<div class="card mb-3 " style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/Romo2.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="Romo2.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -633,7 +633,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/balle.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="balle.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -646,7 +646,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/Foto_GueroSilvaColor.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="Foto_GueroSilvaColor.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -658,7 +658,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/Rendon.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="Rendon.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -795,7 +795,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/FOTOARLColor.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="FOTOARLColor.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -809,7 +809,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/Mike.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="Mike.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -823,7 +823,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/FOTO_CJGT.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="FOTO_CJGT.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">
@@ -952,7 +952,7 @@
 									<div class="card mb-3" style="max-width: 540px;">
 										<div class="row g-0">
 											<div class="col-md-4">
-												<img src="Imagenes/profes/Genaro.jpg" class="img-fluid rounded-start" alt="...">
+												<img src="Genaro.jpg" class="img-fluid rounded-start" alt="...">
 											</div>
 											<div class="col-md-8">
 												<div class="card-body">

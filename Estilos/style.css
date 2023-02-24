@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;1,400&display=swap");
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+/*NAVBAR*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+
+
+
+body {
+  background-color: #fff;
+  min-width: 400px;
+}
+
+.header {
+  background-color: #ffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+  box-shadow: 2px 2px 5px #999;
+  margin-bottom: 5px;
+}
+
+.header .logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transition: .5s;
+  transform: scale(1.1);
+}
+
+.header .nav-links {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.header .nav-links li:hover,
+/**/.overlay a:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links a {
+  font-size: 700;
+  color: #224573e4;
+}
+
+.header .nav-links a:hover {
+  color: #224573e4;
+}
+
+.menu {
+  display: none;
+}
+
+.header .btn button,
+/**/.header .menu button {
+  margin-left: 20px;
+  font-weight: 700;
+  color: #1b3039;
+  padding: 9px 25px;
+  background: #eceff1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover,
+/**/.header .menu button:hover {
+  background-color: #e2f1f8;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/**/
+@media screen and (max-width: 800px) {
+  .nav-links,
+  .btn {
+    display: none;
+  }
+  .menu {
+    display: inherit;
+  }
+}
+
+/*Nav Mobile*/
+
+.header a {
+  text-decoration: none;
+  /*borramos el que teniamos en .header .nav-links a*/
+}
+
+.header .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(33, 49, 63, 0.95);
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+}
+
+.header .overlay .overlay-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+  font-weight: 700;
+  color: #eceff1;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus {
+  color: #fff;
+}
+
+.header .overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 65px;
+}
+
+@media screen and (max-height: 450px) {
+  .header .overlay a {
+    font-size: 20px;
+  }
+  .header .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/*LABORATORIO*/
+
+.hero {
+  margin: auto;
+  display: table;
+}
+
+
+.span-titulo {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: white;
+  border-left: 2px solid #224573;
+  animation: maquina 5s infinite alternate;
+}
+
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+.img-lab {
+  width: 500px;
+  align-items: center;
+  text-align: center;
+}
+
+.botton-server {
+  cursor: pointer;
+  border: #224573;
+  color: #ffff;
+  font-family: "Anton", sans-serif;
+  margin: 5px;
+  margin-left: 15px;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #224573;
+  padding: 10px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.botton-server:hover {
+  background-color: #ffff;
+  color: #224573;
+  transform: scale(1.09);
+  border: 3px solid #224573;
+}
+
+/*TITULOS*/
+
+.titulo-reticula {
+  color: #ffff;
+  font-family: "Anton", sans-serif;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #224573;
+  padding: 5px;
+}
+.titulo-materias1 {
+  cursor: pointer;
+  border: #224573;
+  color: #ffff;
+  font-family: "Anton", sans-serif;
+  margin: 5px;
+  margin-left: 15px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #224573;
+  padding: 5px;
+  transition: 0.5s;
+}
+.titulo-materias {
+  cursor: pointer;
+  border: #224573;
+  color: #ffff;
+  font-family: "Anton", sans-serif;
+  margin: 5px;
+  margin-left: 15px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #224573;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.titulo-materias:hover {
+  background-color: #ffff;
+  color: #224573;
+  border: 5px solid #224573;
+  transform: scale(1.009);
+}
+
+.titulo-cca {
+  font-family: "Anton", sans-serif;
+  color: #224573;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.tituloMat {
+  font-family: "Anton", sans-serif;
+  color: #224573;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+.acordion{
+  text-align: justify;
+  font-size: 25px;
+}
+
+#acordion-boton{
+  font-family: "Anton", sans-serif;
+  color: #224573;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/*ESTILOS TABLAS*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #224573;
+  color: white;
+}
+
+table tr:last-child td:first-child {
+ border-bottom-left-radius: 25px;
+}
+
+table tr:last-child td:last-child {
+ border-bottom-right-radius: 25px;
+ 
+}
+
+#objetivos-modal{
+ 
+  font-size: 10px;
+  width: 600px;
+  align-items: center;
+}
+
+
